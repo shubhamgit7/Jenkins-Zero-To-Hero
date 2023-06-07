@@ -18,6 +18,7 @@ pipeline {
       environment {
         SONAR_URL = "http://18.193.48.28:9000"
       }
+        }
 
         stage('Build Docker'){
             steps{
